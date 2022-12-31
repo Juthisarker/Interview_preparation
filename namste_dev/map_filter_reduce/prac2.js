@@ -64,4 +64,5 @@ const employList = [
 ];
 
 const out = employList.filter((item)=>item.profile ==='Senior developer');
-console.log(out);
+//console.log(out);
+
