@@ -37,3 +37,9 @@ finalResolution
     }
   })
   .catch((err) => console.log(err));
+
+  //practicing typing
+
+
+
+

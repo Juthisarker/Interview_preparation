@@ -21,4 +21,5 @@ function countDuplicates(data){
     return output;
 }
 
-console.log(countDuplicates(items));
+//console.log(countDuplicates(items));
+

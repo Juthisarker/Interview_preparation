@@ -49,7 +49,7 @@ function printset(){
     close(i);
 }
 }
-printset()
+//printset()
 // function printSet(){
 // for(let i =1;i<=10 ;i++){
 //     setTimeout(() => {
@@ -76,7 +76,7 @@ const output = user.reduce((acc,cur)=>{
  
 // const arr2 = [1,2,3];
 
-// const obj2 = {a:1, c:0, b:3};
+// const obj2 = {a:1, c:0, b:3};const obj2 = {a:1, c:0, b:3};
 
 // const outSort = Object.keys(obj2).sort().reduce((acc,cur)=>{
 //     //   acc[cur] = obj2[cur];
@@ -112,3 +112,30 @@ const output = user.reduce((acc,cur)=>{
 //      return acc;
 // },{});
 // console.log(arry);
+
+const obj22 = {a:1, c:0, b:3};
+
+const aaa = Object.keys(obj22).sort().reduce((acc, cur)=>{
+    acc[cur] = obj22[cur];
+
+    return acc;
+},{});
+
+//console.log(aaa);
+
+const attt = Object.keys(obj22).sort().reduce((acc,cur)=>{
+          acc[cur] = obj22[cur];
+
+          return acc;
+},{})
+const obj23 = {a:1, c:0, b:3};
+const hello22 = Object.keys(obj23).sort().reduce((acc, cur)=>{
+     acc[cur] = obj23[cur];
+
+     return acc;
+});
+
+console.log(hello22);
+
+console.log(attt);
+

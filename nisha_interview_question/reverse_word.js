@@ -10,3 +10,13 @@ function reverseString(data) {
 }
 
 console.log(reverseString(input));
+
+
+function reverseeeee(data) {
+    const arr = data.split(" ");
+    const out = arr.map((d)=>{
+      return d.split("").reverse().join("");
+    });
+    return out.join(" ");
+}
+console.log(reverseeeee(input));

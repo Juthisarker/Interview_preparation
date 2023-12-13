@@ -34,4 +34,18 @@ return outer;
 //outer()();
 var a =100;
 var close = outest()("outer function");
-close();
+//close();
+
+function outesttt() {
+  let t =9;
+function a1(arg){
+let a = 10;
+  function b(){
+    console.log(a, arg, t);
+  }
+  return b;
+}
+return a1;
+}
+var result = outesttt()("hi papa");
+result();

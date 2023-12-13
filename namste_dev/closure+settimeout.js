@@ -12,11 +12,25 @@ function x(){
     for (let i = 1; i <= 5; i++) {
     function close(x){
             setTimeout(() => {
-                console.log(x);
+                console.log(x);   console.log(x);
             }, x* 1000);
         }
         close(i);
     }
   console.log("namaste javascript");
     }
-    x();
+  //  x();
+
+  function ui() {
+    for(let i = 0; i<=5; i++) {
+      function close(x) {
+        setTimeout(() => {
+          console.log(i);
+        }, x*1000);
+      }
+      close(i)
+    }
+  }
+
+  ui();
+
