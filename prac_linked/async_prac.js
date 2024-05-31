@@ -32,5 +32,7 @@ async function fetchMovies(){
 }
 fetchMovies();
  //let output = await fetchMovies();
+
+
  
 
