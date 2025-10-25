@@ -30,7 +30,8 @@ function z(){
          function y(){
          console.log(a,b);
          }
-         y();
+        y();
     }
-    x();
-}z();
+   x();
+}
+z();

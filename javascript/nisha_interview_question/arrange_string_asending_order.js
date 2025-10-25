@@ -19,13 +19,13 @@ console.log(asendingStringArrange(str));
 ///https://www.javascripttutorial.net/javascript-array-sort/
 
 
-function as() {
+// function as() {
 
-  const str1 = "React is a library";
-  const arr = str1.split(" ");
-  arr.sort((a, b)=>{
-      return a.length - b.length;
-  })
+//   const str1 = "React is a library";
+//   const arr = str1.split(" ");
+//   arr.sort((a, b)=>{
+//       return a.length - b.length;
+//   })
 
-  return arr.join(" ");
-}
+//   return arr.join(" ");
+// }
